@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#header {
+    background: #50b3a2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#adventure-selection {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+#adventure-selection button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#simulation-presentation {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    background: white;
+}
+
+#share-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #50b3a2;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
